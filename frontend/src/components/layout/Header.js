@@ -8,6 +8,7 @@ import { logout } from "../../actions/userActions";
 import Search from "./Search";
 
 import "../../App.css";
+import Navbar from "./navbar/Navbar";
 
 const Header = () => {
         const alert = useAlert();
@@ -24,7 +25,7 @@ const Header = () => {
         return (
                 <Fragment>
                         <nav className="navbar row">
-                                <div className="col-12 col-md-3">
+                                <div className="col-12 col-md-2">
                                         <div className="navbar-brand">
                                                 <Link to="/">
                                                         <img
@@ -35,7 +36,11 @@ const Header = () => {
                                         </div>
                                 </div>
 
-                                <div className="col-12 col-md-6 mt-2 mt-md-0">
+                                <div className="col-12 col-md-2">
+                                        <Navbar />
+                                </div>
+
+                                <div className="col-12 col-md-5 mt-2 mt-md-0">
                                         <Route
                                                 render={({ history }) => (
                                                         <Search
@@ -47,7 +52,7 @@ const Header = () => {
                                         />
                                 </div>
 
-                                <div className="col-12 col-md-3 mt-4 mt-md-0 text-center">
+                                <div className="col-12 col-md-3 text-center">
                                         <Link
                                                 to="/cart"
                                                 style={{
@@ -56,7 +61,7 @@ const Header = () => {
                                         >
                                                 <span
                                                         id="cart"
-                                                        className="ml-3"
+                                                        // className="ml-3"
                                                 >
                                                         Cart
                                                 </span>
@@ -69,7 +74,7 @@ const Header = () => {
                                         </Link>
 
                                         {user ? (
-                                                <div className="ml-4 dropdown d-inline">
+                                                <div className="dropdown d-inline">
                                                         <Link
                                                                 to="#!"
                                                                 className="btn dropdown-toggle text-white mr-4"
