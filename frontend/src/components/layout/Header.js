@@ -24,8 +24,8 @@ const Header = () => {
 
         return (
                 <Fragment>
-                        <nav className="navbar row">
-                                <div className="col-12 col-md-2">
+                        <nav className="navbar row sticky-top">
+                                <div className="col-6 col-md-2">
                                         <div className="navbar-brand">
                                                 <Link to="/">
                                                         <img
@@ -36,11 +36,13 @@ const Header = () => {
                                         </div>
                                 </div>
 
-                                <div className="col-12 col-md-2">
-                                        <Navbar />
+                                <div className="col-6 col-md-2">
+                                        <div>
+                                                <Navbar />
+                                        </div>
                                 </div>
 
-                                <div className="col-12 col-md-5 mt-2 mt-md-0">
+                                <div className="col-12 col-md-5">
                                         <Route
                                                 render={({ history }) => (
                                                         <Search
