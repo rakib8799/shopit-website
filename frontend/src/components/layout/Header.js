@@ -14,7 +14,7 @@ const Header = () => {
         const alert = useAlert();
         const dispatch = useDispatch();
 
-        const { user, loading } = useSelector((state) => state.auth);
+        const { user } = useSelector((state) => state.auth); //loading
         const { cartItems } = useSelector((state) => state.cart);
 
         const logoutHandler = () => {
@@ -145,15 +145,13 @@ const Header = () => {
                                                         </div>
                                                 </div>
                                         ) : (
-                                                !loading && (
-                                                        <Link
-                                                                to="/login"
-                                                                className="btn ml-4"
-                                                                id="login_btn"
-                                                        >
-                                                                Login
-                                                        </Link>
-                                                )
+                                                <Link
+                                                        to="/login"
+                                                        className="btn ml-4"
+                                                        id="login_btn"
+                                                >
+                                                        Login
+                                                </Link>
                                         )}
                                 </div>
                         </nav>
