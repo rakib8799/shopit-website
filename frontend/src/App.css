@@ -33,8 +33,13 @@ body {
 .primary_bg {
         background: #232f3e;
 }
-.secondary_color {
+.secondary_color,
+.product_link:hover {
         color: #fa9c23;
+}
+
+.product_link:hover {
+        text-decoration: none;
 }
 
 nav {

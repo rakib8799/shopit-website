@@ -83,6 +83,7 @@ const Cart = ({ history }) => {
                                                                                                 <div className="col-5 col-lg-3">
                                                                                                         <Link
                                                                                                                 to={`/product/${item.product}`}
+                                                                                                                className="product_link"
                                                                                                         >
                                                                                                                 {
                                                                                                                         item.name

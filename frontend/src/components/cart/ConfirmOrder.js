@@ -28,7 +28,8 @@ const ConfirmOrder = ({ history }) => {
                 };
 
                 sessionStorage.setItem("orderInfo", JSON.stringify(data));
-                history.push("/payment");
+                // history.push("/payment");
+                history.push("/success");
         };
 
         return (
@@ -157,7 +158,8 @@ const ConfirmOrder = ({ history }) => {
                                                                 processToPayment
                                                         }
                                                 >
-                                                        Proceed to Payment
+                                                        {/* Proceed to Payment */}
+                                                        Cash On Delivery
                                                 </button>
                                         </div>
                                 </div>
