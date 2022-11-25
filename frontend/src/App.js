@@ -1,16 +1,16 @@
 import React, { useEffect } from "react";
 import { BrowserRouter as Router, Route } from "react-router-dom";
 
-import Header from "./components/layout/Header";
 import Footer from "./components/layout/Footer";
+import Header from "./components/layout/Header";
 
 import Home from "./components/Home";
 import ProductDetails from "./components/product/ProductDetails";
 
 // Cart Imports
 import Cart from "./components/cart/Cart";
-import Shipping from "./components/cart/Shipping";
 import ConfirmOrder from "./components/cart/ConfirmOrder";
+import Shipping from "./components/cart/Shipping";
 // import Payment from "./components/cart/Payment";
 import OrderSuccess from "./components/cart/OrderSuccess";
 
@@ -19,28 +19,28 @@ import ListOrders from "./components/order/ListOrders";
 import OrderDetails from "./components/order/OrderDetails";
 
 // Auth or User imports
-import Login from "./components/user/Login";
-import Register from "./components/user/Register";
-import Profile from "./components/user/Profile";
-import UpdateProfile from "./components/user/UpdateProfile";
-import UpdatePassword from "./components/user/UpdatePassword";
 import ForgotPassword from "./components/user/ForgotPassword";
+import Login from "./components/user/Login";
 import NewPassword from "./components/user/NewPassword";
+import Profile from "./components/user/Profile";
+import Register from "./components/user/Register";
+import UpdatePassword from "./components/user/UpdatePassword";
+import UpdateProfile from "./components/user/UpdateProfile";
 
 // Admin Imports
 import Dashboard from "./components/admin/Dashboard";
-import ProductsList from "./components/admin/ProductsList";
 import NewProduct from "./components/admin/NewProduct";
-import UpdateProduct from "./components/admin/UpdateProduct";
 import OrdersList from "./components/admin/OrdersList";
 import ProcessOrder from "./components/admin/ProcessOrder";
-import UsersList from "./components/admin/UsersList";
-import UpdateUser from "./components/admin/UpdateUser";
 import ProductReviews from "./components/admin/ProductReviews";
+import ProductsList from "./components/admin/ProductsList";
+import UpdateProduct from "./components/admin/UpdateProduct";
+import UpdateUser from "./components/admin/UpdateUser";
+import UsersList from "./components/admin/UsersList";
 
-import ProtectedRoute from "./components/route/ProtectedRoute";
-import { loadUser } from "./actions/userActions";
 import { useSelector } from "react-redux";
+import { loadUser } from "./actions/userActions";
+import ProtectedRoute from "./components/route/ProtectedRoute";
 import store from "./store";
 // import axios from "axios";
 
