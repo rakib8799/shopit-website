@@ -1,0 +1,133 @@
+[{
+  "_id": {
+    "$oid": "637c631555b95c3810c3506b"
+  },
+  "itemsPrice": 91.78,
+  "taxPrice": 4.59,
+  "shippingPrice": 25,
+  "totalPrice": 121.37,
+  "orderStatus": "Delivered",
+  "orderItems": [
+    {
+      "_id": {
+        "$oid": "637c631555b95c3810c3506c"
+      },
+      "product": {
+        "$oid": "63429a3c5451335e24a90d4d"
+      },
+      "name": "SanDisk Ultra 128GB SDXC UHS-I Memory Card up to 80MB/s",
+      "price": 45.89,
+      "image": "https://res.cloudinary.com/mkrakib/image/upload/v1665306460/products/P13_s59bal.jpg",
+      "quantity": 2
+    }
+  ],
+  "shippingInfo": {
+    "address": "83/1/5 Gohailkandi Road,Sadar",
+    "city": "Mymensingh",
+    "phoneNo": "01727027277",
+    "postalCode": "2200",
+    "country": "Bangladesh"
+  },
+  "user": {
+    "$oid": "63727325cbac703274e0109c"
+  },
+  "createdAt": {
+    "$date": {
+      "$numberLong": "1669096213282"
+    }
+  },
+  "__v": 0,
+  "deliveredAt": {
+    "$date": {
+      "$numberLong": "1669096736246"
+    }
+  }
+},{
+  "_id": {
+    "$oid": "6381b583a0567216d4ad0e3b"
+  },
+  "itemsPrice": 8.25,
+  "taxPrice": 0.41,
+  "shippingPrice": 25,
+  "totalPrice": 33.66,
+  "orderStatus": "Delivered",
+  "orderItems": [
+    {
+      "_id": {
+        "$oid": "6381b583a0567216d4ad0e3c"
+      },
+      "product": {
+        "$oid": "63429a3c5451335e24a90d5d"
+      },
+      "name": "Kauffman Orchards Homegrown McIntosh Apples",
+      "price": 2.75,
+      "image": "https://res.cloudinary.com/mkrakib/image/upload/v1665306458/products/bg-4_klhfcm.jpg",
+      "quantity": 3
+    }
+  ],
+  "shippingInfo": {
+    "address": "83/1/5 Gohailkandi Road,Sadar",
+    "city": "Mymensingh",
+    "phoneNo": "01727027277",
+    "postalCode": "2200",
+    "country": "Bangladesh"
+  },
+  "user": {
+    "$oid": "63727325cbac703274e0109c"
+  },
+  "createdAt": {
+    "$date": {
+      "$numberLong": "1669444995126"
+    }
+  },
+  "__v": 0,
+  "deliveredAt": {
+    "$date": {
+      "$numberLong": "1669445195716"
+    }
+  }
+},{
+  "_id": {
+    "$oid": "638436afd7f1cc0004115924"
+  },
+  "itemsPrice": 253.98,
+  "taxPrice": 12.7,
+  "shippingPrice": 0,
+  "totalPrice": 266.68,
+  "orderStatus": "Shipped",
+  "orderItems": [
+    {
+      "_id": {
+        "$oid": "638436afd7f1cc0004115925"
+      },
+      "product": {
+        "$oid": "63429a3c5451335e24a90d55"
+      },
+      "name": "Apple AirPods with Charging Case (Wired)",
+      "price": 126.99,
+      "image": "https://res.cloudinary.com/mkrakib/image/upload/v1665306459/products/p7_ozpl19.jpg",
+      "quantity": 2
+    }
+  ],
+  "shippingInfo": {
+    "address": "Aulianagar",
+    "city": "Trishal",
+    "phoneNo": "01710263060",
+    "postalCode": "2222",
+    "country": "Bangladesh"
+  },
+  "user": {
+    "$oid": "6344286c4b63c330f4ee510a"
+  },
+  "createdAt": {
+    "$date": {
+      "$numberLong": "1669609135292"
+    }
+  },
+  "__v": 0,
+  "deliveredAt": {
+    "$date": {
+      "$numberLong": "1669609256690"
+    }
+  }
+}]

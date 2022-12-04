@@ -1,0 +1,55 @@
+[{
+  "_id": {
+    "$oid": "6344286c4b63c330f4ee510a"
+  },
+  "role": "admin",
+  "name": "Mehedi Khan Rakib",
+  "email": "mkrakib007@gmail.com",
+  "password": "$2a$10$FjnUAGUyJC3bFQrEcT/GYOSvX/0kuS527c3pff3fl5fPAyTmkCu1.",
+  "avatar": {
+    "public_id": "avatars/fdzksshkkad0dui9fsqd",
+    "url": "https://res.cloudinary.com/mkrakib/image/upload/v1665411185/avatars/fdzksshkkad0dui9fsqd.jpg"
+  },
+  "createdAt": {
+    "$date": {
+      "$numberLong": "1665411180865"
+    }
+  },
+  "__v": 1
+},{
+  "_id": {
+    "$oid": "63727325cbac703274e0109c"
+  },
+  "role": "user",
+  "name": "MK Rakib",
+  "email": "mkrakib328@gmail.com",
+  "password": "$2a$10$eqgkzzfqeviz28Ywtx1moOPiDWx2YYd1V8ssteA/OjYkRQTTZ1Eia",
+  "avatar": {
+    "public_id": "avatars/vufs0nrj0tumszouvttz",
+    "url": "https://res.cloudinary.com/mkrakib/image/upload/v1668444964/avatars/vufs0nrj0tumszouvttz.jpg"
+  },
+  "createdAt": {
+    "$date": {
+      "$numberLong": "1668444965257"
+    }
+  },
+  "__v": 0
+},{
+  "_id": {
+    "$oid": "63843d2ed7f1cc00041159cd"
+  },
+  "role": "user",
+  "name": "Alamgir",
+  "email": "md.alamgir_kobir@yahoo.com",
+  "password": "$2a$10$SFEheXPD.fNT8eKhk2pYNOdPa08iZ3H6ttOxd6D.w4pWHDFFObcl6",
+  "avatar": {
+    "public_id": "avatars/lplyikwgeqa0qnhwjryi",
+    "url": "https://res.cloudinary.com/mkrakib/image/upload/v1669610797/avatars/lplyikwgeqa0qnhwjryi.jpg"
+  },
+  "createdAt": {
+    "$date": {
+      "$numberLong": "1669610798044"
+    }
+  },
+  "__v": 0
+}]

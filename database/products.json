@@ -1,0 +1,329 @@
+[{
+  "_id": {
+    "$oid": "63429a3c5451335e24a90d57"
+  },
+  "name": "Cable Boom Microphone - Volume Control for Playstation PS4 or Xbox",
+  "price": 27.99,
+  "description": "DESIGN INFO - 3.5mm male to 2.5mm male audio cable adapter with Upgraded Flexible, Detachable Boom Mic which also enables rotary Volume Control and Mute Switch. SteelFlex Arm for perfect microphone positioning. INPUT COMPATIBILITY - Devices supporting 3.5mm audio output such as gaming PS4 / Xbox One controller, PC, Laptop, iPhone and Android Phone.",
+  "ratings": 4,
+  "images": [
+    {
+      "public_id": "products/p4_zz574a",
+      "url": "https://res.cloudinary.com/mkrakib/image/upload/v1665306459/products/p4_zz574a.jpg",
+      "_id": {
+        "$oid": "63429a3c5451335e24a90d58"
+      }
+    }
+  ],
+  "category": "Accessories",
+  "seller": "Amazon",
+  "stock": 1123,
+  "numOfReviews": 1,
+  "reviews": [
+    {
+      "_id": {
+        "$oid": "634704cecdf1230004581d8d"
+      },
+      "user": {
+        "$oid": "634434e5efd11a04acc297f5"
+      },
+      "name": "MK Rakib",
+      "rating": 4,
+      "comment": "Good"
+    }
+  ],
+  "createdAt": {
+    "$date": {
+      "$numberLong": "1665309244898"
+    }
+  },
+  "__v": 1
+},{
+  "_id": {
+    "$oid": "63429a3c5451335e24a90d4f"
+  },
+  "name": "CAN USB FD Adapter (GC-CAN-USB-FD)",
+  "price": 315,
+  "description": "Monitor a CAN network, write a CAN program and communicate with industrial, medical, automotive or other CAN based device. Connect CAN FD and CAN networks to a computer via USB with the CAN USB FD adapter.",
+  "ratings": {
+    "$numberDouble": "Infinity"
+  },
+  "images": [
+    {
+      "public_id": "products/P12_kwcwct",
+      "url": "https://res.cloudinary.com/mkrakib/image/upload/v1665306460/products/P12_kwcwct.jpg",
+      "_id": {
+        "$oid": "63429a3c5451335e24a90d50"
+      }
+    }
+  ],
+  "category": "Electronics",
+  "seller": "Amazon",
+  "stock": 0,
+  "numOfReviews": 0,
+  "reviews": [],
+  "createdAt": {
+    "$date": {
+      "$numberLong": "1665309244892"
+    }
+  },
+  "__v": 1
+},{
+  "_id": {
+    "$oid": "63429a3c5451335e24a90d55"
+  },
+  "name": "Apple AirPods with Charging Case (Wired)",
+  "price": 126.99,
+  "description": "AirPods with Charging Case: More than 24 hours listening time, up to 18 hours talk time; AirPods (single charge): Up to 5 hours listening time, up to 3 hours talk time or 15 minutes in the case equals up to 3 hours listening time or up to 2 hours talk time.",
+  "ratings": 4,
+  "images": [
+    {
+      "public_id": "products/p7_ozpl19",
+      "url": "https://res.cloudinary.com/mkrakib/image/upload/v1665306459/products/p7_ozpl19.jpg",
+      "_id": {
+        "$oid": "63429a3c5451335e24a90d56"
+      }
+    }
+  ],
+  "category": "Electronics",
+  "seller": "Amazon",
+  "stock": 116,
+  "numOfReviews": 1,
+  "reviews": [
+    {
+      "_id": {
+        "$oid": "634635d535944f000478f5af"
+      },
+      "user": {
+        "$oid": "634434e5efd11a04acc297f5"
+      },
+      "name": "MK Rakib",
+      "rating": 4,
+      "comment": "Good Product"
+    }
+  ],
+  "createdAt": {
+    "$date": {
+      "$numberLong": "1665309244897"
+    }
+  },
+  "__v": 1
+},{
+  "_id": {
+    "$oid": "63429a3c5451335e24a90d4d"
+  },
+  "name": "SanDisk Ultra 128GB SDXC UHS-I Memory Card up to 80MB/s",
+  "price": 45.89,
+  "description": "Ultra-fast cards (2) to take better pictures and Full HD videos (1) with your compact to mid-range point-and-shoot cameras and camcorders. With SanDisk Ultra SDXC UHS-I cards you’ll benefit from faster downloads, high capacity, and better performance to capture and store 128GB (5) of high quality pictures and Full HD video (1). Take advantage of ultra-fast read speeds of up to 80MB/s (3) to save time moving photos and videos from the card to your computer. From a leader in flash memory storage, SanDisk Ultra SDXC UHS-I cards are compatible with SDHC and SDXC digital devices, and come with a 10-year limited warranty (6).",
+  "ratings": 4,
+  "images": [
+    {
+      "public_id": "products/P13_s59bal",
+      "url": "https://res.cloudinary.com/mkrakib/image/upload/v1665306460/products/P13_s59bal.jpg",
+      "_id": {
+        "$oid": "63429a3c5451335e24a90d4e"
+      }
+    }
+  ],
+  "category": "Electronics",
+  "seller": "Ebay",
+  "stock": 46,
+  "numOfReviews": 1,
+  "reviews": [
+    {
+      "_id": {
+        "$oid": "63444200b1d7523facce86b8"
+      },
+      "user": {
+        "$oid": "634434e5efd11a04acc297f5"
+      },
+      "name": "MK Rakib",
+      "rating": 4,
+      "comment": "It's a good product.\r\n"
+    }
+  ],
+  "createdAt": {
+    "$date": {
+      "$numberLong": "1665309244889"
+    }
+  },
+  "__v": 1
+},{
+  "_id": {
+    "$oid": "63429a3c5451335e24a90d51"
+  },
+  "name": "CHARMOUNT Full Motion TV Wall Mount Swivel",
+  "price": 26.99,
+  "description": "CHARMOUNT TV MOUNT UNIVERSAL DESIGN - Has your TV been received? Tilted TV wall mount is for 26 - 55 TVs weight up to 88lbs 40 kg. Our tilt TV mount has a compatible faceplate that fits VESA 75X75mm (3x3). CHARMOUNT TV MOUNT UNIVERSAL DESIGN - Has your TV been received? Tilted TV wall mount is for 26 - 55 TVs weight up to 88lbs 40 kg. Our tilt TV mount has a compatible faceplate that fits VESA 75X75mm (3x3) CHARMOUNT TV MOUNT UNIVERSAL DESIGN - Has your TV been received? Tilted TV wall mount is for 26 - 55 TVs weight up to 88lbs 40 kg. Our tilt TV mount has a compatible faceplate that fits VESA 75X75mm (3x3).",
+  "ratings": 3.5,
+  "images": [
+    {
+      "public_id": "products/P11_qh7yjn",
+      "url": "https://res.cloudinary.com/mkrakib/image/upload/v1665306460/products/P11_qh7yjn.jpg",
+      "_id": {
+        "$oid": "63429a3c5451335e24a90d52"
+      }
+    }
+  ],
+  "category": "Electronics",
+  "seller": "Amazon",
+  "stock": 1,
+  "numOfReviews": 12,
+  "reviews": [],
+  "createdAt": {
+    "$date": {
+      "$numberLong": "1665309244893"
+    }
+  },
+  "__v": 0
+},{
+  "_id": {
+    "$oid": "63429a3c5451335e24a90d53"
+  },
+  "name": "Bose QuietComfort 35 II Wireless Bluetooth Headphones",
+  "price": 299,
+  "description": "What happens when you clear away the noisy distractions of the world? Concentration goes to the next level. You get deeper into your music, your work, or whatever you want to focus on. That’s the power of Bose QuietComfort 35 wireless headphones II. Put them on and get closer to what you’re most passionate about. And that’s just the beginning. QuietComfort 35 wireless headphones II are now enabled with Bose AR",
+  "ratings": 4,
+  "images": [
+    {
+      "public_id": "products/p5_lmmh3y",
+      "url": "https://res.cloudinary.com/mkrakib/image/upload/v1665306459/products/p5_lmmh3y.jpg",
+      "_id": {
+        "$oid": "63429a3c5451335e24a90d54"
+      }
+    }
+  ],
+  "category": "Headphones",
+  "seller": "Amazon",
+  "stock": 11,
+  "numOfReviews": 1,
+  "reviews": [
+    {
+      "_id": {
+        "$oid": "6345b8059bfc35000493e058"
+      },
+      "user": {
+        "$oid": "634434e5efd11a04acc297f5"
+      },
+      "name": "MK Rakib",
+      "rating": 4,
+      "comment": "Good Product"
+    }
+  ],
+  "createdAt": {
+    "$date": {
+      "$numberLong": "1665309244896"
+    }
+  },
+  "__v": 1
+},{
+  "_id": {
+    "$oid": "63429a3c5451335e24a90d59"
+  },
+  "name": "Nikon D3500 W/ AF-P DX NIKKOR 18-55mm f/3.5-5.6G VR Black",
+  "price": 496.95,
+  "description": "You don't need to be a photographer to know a great photo when you see one. And you don't need to be a photographer to take a great photo—you just need the D3500. It's as easy to use as a point-and-shoot, but it takes beautiful DSLR photos and videos that get noticed. It feels outstanding in your hands, sturdy and balanced with controls where you want them. It's compact, durable and versatile, ideal for travel. And it works seamlessly with compatible smartphones, making it easier than ever to share your great photos. Even if you've never picked up a DSLR camera, you can take beautiful pictures with D3500.",
+  "ratings": 4.7,
+  "images": [
+    {
+      "public_id": "products/bg-3_vgykfp",
+      "url": "https://res.cloudinary.com/mkrakib/image/upload/v1665306457/products/bg-3_vgykfp.jpg",
+      "_id": {
+        "$oid": "63429a3c5451335e24a90d5a"
+      }
+    }
+  ],
+  "category": "Cameras",
+  "seller": "Amazon",
+  "stock": 131,
+  "numOfReviews": 222,
+  "reviews": [],
+  "createdAt": {
+    "$date": {
+      "$numberLong": "1665309244899"
+    }
+  },
+  "__v": 0
+},{
+  "_id": {
+    "$oid": "63429a3c5451335e24a90d5b"
+  },
+  "name": "Apple MacBook Air (13-inch, 8GB RAM, 256GB SSD Storage) - Space Gray",
+  "price": 949.99,
+  "description": "Stunning 13.3-inch Retina display with True Tone technology, Backlit Magic Keyboard and Touch ID, Tenth-generation, Intel Core i3 processor, Intel Iris Plus Graphics, Fast SSD storage, 8GB of memory, Stereo speakers with wider stereo sound",
+  "ratings": 4.9,
+  "images": [
+    {
+      "public_id": "products/bg-2_su02hp",
+      "url": "https://res.cloudinary.com/mkrakib/image/upload/v1665306457/products/bg-2_su02hp.jpg",
+      "_id": {
+        "$oid": "63429a3c5451335e24a90d5c"
+      }
+    }
+  ],
+  "category": "Laptops",
+  "seller": "Amazon",
+  "stock": 0,
+  "numOfReviews": 56,
+  "reviews": [],
+  "createdAt": {
+    "$date": {
+      "$numberLong": "1665309244899"
+    }
+  },
+  "__v": 0
+},{
+  "_id": {
+    "$oid": "63429a3c5451335e24a90d5d"
+  },
+  "name": "Kauffman Orchards Homegrown McIntosh Apples",
+  "price": 2.75,
+  "description": "McIntosh is a pretty red/green apple with white flesh Homegrown in Kauffman's orchard in healthy Lancaster County soil McIntosh apples are famous for snacking, pies, salads, and applesauce Protected with soft, high-density foam for safe shipping to your door Not for sale to California, Oregon, or Washington due to state laws governing fresh produce",
+  "ratings": 4,
+  "images": [
+    {
+      "public_id": "products/bg-4_klhfcm",
+      "url": "https://res.cloudinary.com/mkrakib/image/upload/v1665306458/products/bg-4_klhfcm.jpg",
+      "_id": {
+        "$oid": "63429a3c5451335e24a90d5e"
+      }
+    },
+    {
+      "public_id": "products/P14_az1lhc",
+      "url": "https://res.cloudinary.com/mkrakib/image/upload/v1665306460/products/P14_az1lhc.jpg",
+      "_id": {
+        "$oid": "63429a3c5451335e24a90d5f"
+      }
+    },
+    {
+      "public_id": "products/register_erbudc",
+      "url": "https://res.cloudinary.com/mkrakib/image/upload/v1665306460/products/register_erbudc.png",
+      "_id": {
+        "$oid": "63429a3c5451335e24a90d60"
+      }
+    }
+  ],
+  "category": "Food",
+  "seller": "Kauffman's Fruit Farm & Market",
+  "stock": 494,
+  "numOfReviews": 1,
+  "reviews": [
+    {
+      "_id": {
+        "$oid": "63843801d7f1cc0004115974"
+      },
+      "user": {
+        "$oid": "63727325cbac703274e0109c"
+      },
+      "name": "MK Rakib",
+      "rating": 4,
+      "comment": "Good"
+    }
+  ],
+  "createdAt": {
+    "$date": {
+      "$numberLong": "1665309244901"
+    }
+  },
+  "__v": 1
+}]
