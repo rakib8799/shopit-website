@@ -1,17 +1,59 @@
-import React, { Fragment, useEffect } from 'react'
+import React, { Fragment, useEffect } from 'react';
 import { Link } from 'react-router-dom';
 
-import MetaData from '../layout/MetaData'
-import Loader from '../layout/Loader'
-import Sidebar from './Sidebar'
+import { BarElement,ArcElement, CategoryScale, Chart as ChartJS, Legend, LinearScale, Tooltip } from 'chart.js';
+import { Bar,Pie } from "react-chartjs-2";
 
-import { useDispatch, useSelector } from 'react-redux'
+import Loader from '../layout/Loader';
+import MetaData from '../layout/MetaData';
+import Sidebar from './Sidebar';
 
-import { getAdminProducts } from '../../actions/productActions'
-import { allOrders } from '../../actions/orderActions'
-import { allUsers } from '../../actions/userActions'
+import { useDispatch, useSelector } from 'react-redux';
+
+import { allOrders } from '../../actions/orderActions';
+import { getAdminProducts } from '../../actions/productActions';
+import { allUsers } from '../../actions/userActions';
+
+ChartJS.register(
+    BarElement,ArcElement,CategoryScale,LinearScale,Tooltip,Legend
+);
 
 const Dashboard = () => {
+
+    const data = {
+        labels: ["Mon","Tue","Wed"],
+        datasets: [
+            {
+                label: '369',
+                data: [3,6,9],
+                backgroundColor: 'aqua',
+                borderColor: 'black',
+                borderWidth: 1,
+            },
+            {
+                label: '333',
+                data: [3,3,3],
+                backgroundColor: 'green',
+                borderColor: 'black',
+                borderWidth: 1,
+            }
+        ]
+    }
+    const options = {};
+    const data2 = {
+        labels: ["One","Two","Three"],
+        datasets: [
+            {
+                data: [3,6,9],
+                backgroundColor: ['aqua','orangered','purple']
+            },
+            {
+                data: [4,7,9],
+                backgroundColor: ['aqua','orangered','purple']
+            }
+        ]
+    }
+    const options2 = {};
 
     const dispatch = useDispatch();
 
@@ -33,7 +75,7 @@ const Dashboard = () => {
     }, [dispatch])
 
     return (
-        <Fragment>
+        <>
             <div className="row">
                 <div className="col-12 col-md-2">
                     <Sidebar />
@@ -111,13 +153,22 @@ const Dashboard = () => {
                                     </div>
                                 </div>
                             </div>
+                            <div className="row pr-4 mt-4">
+                                <div className="col-xl-6 col-sm-12 mb-3">
+                                    <h3 className='text-center'>Sale statistics</h3>
+                                    <Bar style={{padding: '20px',width: '100%'}} data={data} options={options}></Bar>
+                                </div>
+                                <div className="col-xl-6 col-sm-12 mb-3">
+                                    <h3 className='text-center'>Products statistics</h3>
+                                    <Pie style={{padding: '20px',width: '50%'}} data={data2} options={options2}></Pie>
+                                </div>
+                            </div>
                         </Fragment>
                     )}
 
                 </div>
             </div>
-
-        </Fragment >
+        </>
     )
 }
 
