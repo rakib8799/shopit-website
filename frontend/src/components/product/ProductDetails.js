@@ -1,4 +1,4 @@
-import React, { Fragment, useState, useEffect } from "react";
+import React, { Fragment, useEffect, useState } from "react";
 import { Carousel } from "react-bootstrap";
 
 import Loader from "../layout/Loader";
@@ -7,12 +7,12 @@ import ListReviews from "../review/ListReviews";
 
 import { useAlert } from "react-alert";
 import { useDispatch, useSelector } from "react-redux";
-import {
-        getProductDetails,
-        newReview,
-        clearErrors,
-} from "../../actions/productActions";
+import { Link } from "react-router-dom";
 import { addItemToCart } from "../../actions/cartActions";
+import {
+        clearErrors, getProductDetails,
+        newReview
+} from "../../actions/productActions";
 import { NEW_REVIEW_RESET } from "../../constants/productConstants";
 
 const ProductDetails = ({ match }) => {
@@ -130,9 +130,9 @@ const ProductDetails = ({ match }) => {
                         ) : (
                                 <Fragment>
                                         <MetaData title={product.name} />
-                                        <div className="row d-flex justify-content-around">
+                                        <div className="row d-flex">
                                                 <div
-                                                        className="col-12 col-lg-5 img-fluid"
+                                                        className="col-12 col-lg-4 img-fluid"
                                                         id="product_image"
                                                 >
                                                         <Carousel pause="hover">
@@ -392,6 +392,32 @@ const ProductDetails = ({ match }) => {
                                                                         </div>
                                                                 </div>
                                                         </div>
+                                                </div>
+                                                <div className="col-12 col-lg-3 mt-5">
+                                                <div>
+                                                <h6 className="text-muted">Delivery</h6>
+                                                <div className="d-flex justify-content-between">
+                                                <p>Trishal Bazar Guhata <br/> Road, Mymensingh</p>
+                                                <Link to="/">CHANGE</Link>
+                                                </div>	
+                                                <div className="d-flex justify-content-between">
+                                                {/* <div> */}
+                                                <p>Standard Delivery <br/><small className="text-muted">3 - 6 day(s)</small></p>
+                                                {/* </div> */}
+                                                <p>৳ 62</p>
+                                                </div>	
+                                                <div>
+                                                <p>Cash on Delivery Available</p>
+                                                </div>
+                                                </div>
+
+                                                <div className="mt-4">
+                                                <h6 className="text-muted">Service</h6>
+                                                <div>
+                                                <p>7 Day Return <br/> <small className="text-muted">Change of mind applicable</small></p>
+                                                <p>Warranty not available</p>
+                                                </div>	
+                                                </div>
                                                 </div>
                                         </div>
 
