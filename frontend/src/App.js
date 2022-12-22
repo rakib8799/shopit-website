@@ -50,6 +50,7 @@ import store from "./store";
 import HomeProducts from "./components/HomeProducts";
 
 function App() {
+        // https://shopit-admin.herokuapp.com/
         // const [stripeApiKey, setStripeApiKey] = useState("");
 
         useEffect(() => {
